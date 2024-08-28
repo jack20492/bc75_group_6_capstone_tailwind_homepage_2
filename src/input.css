@@ -185,3 +185,109 @@ tr:hover .img-1 {
     max-width: 700px;
 } */
 
+.ap__container h1, .AI__container__info h1, .cost__container h1, .card-content h1{
+    font-size: 4.5rem;
+    font-weight: bold;
+}
+.ap__container p, .AI__container__info p, .counting__numbers p{
+    font-size: 1.25rem;
+}
+.AI__container{
+    background-color: black;
+    /* position: relative; */
+}
+.play__button{
+    background: rgba(0,0,0,.2);
+    border: 3px solid black;
+    transition: 0.5s;
+    
+}
+.play__button:hover{
+    background:#FE330A;
+    color: white;
+}
+.play__button a{
+    
+    vertical-align: middle;
+    line-height: 8rem;    
+}
+.counting__numbers h1{
+    font-size: 6rem;
+    font-weight: bold;
+    color: #FE330A;
+}
+.counting__numbers p{
+    color: white;
+}
+.video {
+    width: 100%;
+    height: 400px;
+    margin: auto;
+    display: block;
+    border: none;
+}
+.video-popup {
+    display: none;
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: fixed;
+    top: 0;
+}
+.popup-bg {
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+}
+.popup-content {
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 800px;
+    height: auto;
+}
+.sub__options, .sub__options button {
+    box-sizing: border-box;
+}
+.sub__options{
+    margin: 0 auto;
+}
+.sub__options button{
+    width: 100%;
+    display: block;
+}
+.card-content{
+    background-color: #EFEAE3;
+    padding: 28px;
+    border-radius: 8px;
+}
+.card-content h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.card-content hr{
+    border-color: #DBD6CF;
+}
+.card-content p{
+    font-size: 1.1rem;
+}
+.card-content:hover{
+    color: white;
+    background-color: black;
+    transition: 0.5s;
+}
+.card-content:hover hr{
+    border-color: white;
+}
+.card-content:hover button{
+    border-color: red;
+}
+.sub__button{
+    transition: 0.3s;
+}
+.sub__button:hover{
+    background-color: #FE330A;
+}
