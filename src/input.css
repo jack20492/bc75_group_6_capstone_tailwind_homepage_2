@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Phúc start */
 * {
     padding: 0;
     margin: 0;
@@ -181,6 +182,8 @@ tr:hover .img-1 {
     font-size: 1.125rem;
     line-height: 1.75rem;
 }
+
+/* Phúc end */
 .max-w-\[700px\] {
     max-width: 700px;
 } */
