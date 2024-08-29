@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Azzle - AI Technology and Startup</title>
+    <!-- link css.Toan -->
+     <link rel="stylesheet" href="./Toan/style.css">
+
+    <!-- GG Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./../src/slick-1.8.1/slick/slick.css"
+    />
+
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./../src/slick-1.8.1/slick/slick-theme.css"
+    />
+    <link rel="stylesheet" href="./output.css" />
+    <link rel="stylesheet" href="./input.css" />
+    <link rel="stylesheet" href="./menu.css" />
+  </head>
+
+  <body>
+    <!--     Phúc start -->
+    <!--...::: Header Start :::... -->
+    <div class="page-wrapper pb-10">
+      <header
+        class="site-header site-header--absolute is--white py-3"
+        id="sticky-menu"
+      >
+        <div class="master-container">
+          <div class="flex items-center justify-between gap-x-8 pb-20">
+            <!-- Header Logo -->
+            <a class href="/src/index.html">
+              <img
+                src="./IMG/logo-dark.png"
+                alt="Logo"
+                width="96"
+                height="24"
+              />
+            </a>
+            <!-- Header Logo -->
+
+            <!-- Header Navigation -->
+            <div class="menu-block-wrapper">
+              <nav class="menu-block" id="append-menu-header">
+                <ul class="site-menu-main">
+                  <li class="nav-item nav-item-has-children">
+                    <a href="#" class="nav-link-item drop-trigger"
+                      >Demo
+                      <img
+                        class="dropdown-icon"
+                        src="./IMG/icon-black-cheveron-right.svg"
+                        alt="cheveron-right"
+                        width="16"
+                        height="16"
+                    /></a>
+                    <ul class="sub-menu" id="submenu-1">
+                      <li class="sub-menu--item">
+                        <a href="#">Home 01</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="#">Home 02</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="#">Home 03</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="#"> Home 04</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="#">About</a>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="#" class="nav-link-item drop-trigger"
+                      >Services
+                      <img
+                        class="dropdown-icon"
+                        src="./IMG/icon-black-cheveron-right.svg"
+                        alt="cheveron-right"
+                        width="16"
+                        height="16"
+                    /></a>
+                    <ul class="sub-menu" id="submenu-2">
+                      <li class="sub-menu--item">
+                        <a href="#">Services</a>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a href="#">Service Details</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item nav-item-has-children">
+                    <a href="#" class="nav-link-item drop-trigger"
+                      >Pages
+                      <img
+                        class="dropdown-icon"
+                        src="./IMG/icon-black-cheveron-right.svg"
+                        alt="cheveron-right"
+                        width="16"
+                        height="16"
+                    /></a>
+                    <ul class="sub-menu" id="submenu-3">
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="#" data-menu-get="h3" class="drop-trigger"
+                          >Blogs
+                          <img
+                            class="dropdown-icon"
+                            src="./IMG/icon-black-cheveron-right.svg"
+                            alt="cheveron-right"
+                            width="16"
+                            height="16"
+                        /></a>
+                        <ul class="sub-menu shape-none" id="submenu-4">
+                          <li class="sub-menu--item">
+                            <a href="#">Blogs</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="#">Blog details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="#" data-menu-get="h3" class="drop-trigger"
+                          >Team
+                          <img
+                            class="dropdown-icon"
+                            src="./IMG/icon-black-cheveron-right.svg"
+                            alt="cheveron-right"
+                            width="16"
+                            height="16"
+                          />
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-5">
+                          <li class="sub-menu--item">
+                            <a href="#">Teams</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="#">Teams Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="#" data-menu-get="h3" class="drop-trigger"
+                          >FAQ
+                          <img
+                            class="dropdown-icon"
+                            src="./IMG/icon-black-cheveron-right.svg"
+                            alt="cheveron-right"
+                            width="16"
+                            height="16"
+                          />
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-6">
+                          <li class="sub-menu--item">
+                            <a href="#">FAQ-1</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="#">FAQ-2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="#" data-menu-get="h3" class="drop-trigger"
+                          >Portfolio
+                          <img
+                            class="dropdown-icon"
+                            src="./IMG/icon-black-cheveron-right.svg"
+                            alt="cheveron-right"
+                            width="16"
+                            height="16"
+                          />
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-7">
+                          <li class="sub-menu--item">
+                            <a href="#">Portfolio</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="#">Portfolio Details</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li class="sub-menu--item">
+                        <a class="drop-trigger" data-menu-get="h3" href="#"
+                          >Pricing
+                        </a>
+                      </li>
+
+                      <li class="sub-menu--item nav-item-has-children">
+                        <a href="#" data-menu-get="h3" class="drop-trigger"
+                          >Utilities
+                          <img
+                            class="dropdown-icon"
+                            src="./IMG/icon-black-cheveron-right.svg"
+                            alt="cheveron-right"
+                            width="16"
+                            height="16"
+                          />
+                        </a>
+                        <ul class="sub-menu shape-none" id="submenu-8">
+                          <li class="sub-menu--item">
+                            <a href="#">Error 404</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="#">Login</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="#">Signup</a>
+                          </li>
+                          <li class="sub-menu--item">
+                            <a href="#">Reset Password</a>
+                          </li>
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link-item" href="/contact">Contact</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <!-- Header Navigation -->
+
+            <!-- Header User Event -->
+            <div class="flex items-center gap-6">
+              <a
+                style="font-size: 2vw"
+                type="button"
+                class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-red-500 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 lg:inline-block"
+              >
+                Log in
+              </a>
+              <a
+                href="/signup.html"
+                style="font-size: 2vw"
+                type="button"
+                class="text-white bg-gray-800 hover:bg-red-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+              >
+                Sign up free
+              </a>
+              <!-- Responsive Offcanvas Menu Button -->
+              <div class="block lg:hidden">
+                <button id="openBtn" class="hamburger-menu mobile-menu-trigger">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </button>
+              </div>
+            </div>
+            <!-- Header User Event -->
+          </div>
+        </div>
+      </header>
+
+      <!--...::: Header End :::... -->
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </div>
+
+    <br />
+    <br />
+    <br />
+
+    <!-- Bắt đầu Code của Toàn -->
+
+    <h1 class="max-w-7xl text-center m-auto pb-5 pt-5 text-9xl font-bold">
+      Create Account
+    </h1>
+
+    <div class="max-w-3xl m-auto bg-[#ffffff]">
+      <div class="mb-5">
+        <label for="signup-name" class="font-bold">Enter your name</label>
+
+        <input
+          type="text"
+          id="signup-name"
+          autocomplete="signup-name"
+          class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-600 focus:border-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 dark:shadow-sm-light"
+          placeholder="Adam Smith"
+          required
+        />
+      </div>
+      <form class="max-w-3xl mx-auto">
+        <div class="mb-5">
+          <label
+            for="email"
+            class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+            >Email address</label
+          >
+          <input
+            type="email"
+            id="email"
+            autocomplete="email"
+            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-600 focus:border-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 dark:shadow-sm-light"
+            placeholder="example@gmail.com"
+            required
+          />
+        </div>
+        <div class="mb-5">
+          <label
+            for="password"
+            class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+            >Enter Password</label
+          >
+          <input
+            type="password"
+            id="password"
+            autocomplete="current-password"
+            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-600 focus:border-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 dark:shadow-sm-light"
+            required
+          />
+        </div>
+
+        <div class="flex items-start mb-5">
+          <div class="flex items-center h-5">
+            <input
+              id="terms"
+              type="checkbox"
+              value=""
+              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+              required
+            />
+          </div>
+          <label
+            for="terms"
+            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+            >I have read and accept the
+            <a href="#" class="text-black hover:text-red-600 dark:text-blue-500"
+              >Terms & Conditions</a
+            >
+            and
+            <a href="#" class="text-black hover:text-red-600 dark:text-blue-500"
+              >Privacy Policy</a
+            >
+          </label>
+        </div>
+        <div>
+          <button
+            type="submit"
+            class="text-white bg-black hover:bg-red-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-4 text-center w-full"
+          >
+            Create account
+          </button>
+        </div>
+      </form>
+
+      <div class="z-10 text-center font-bold pt-9 pb-9">
+        <span>Or</span>
+      </div>
+      <div>
+        <div class="flex flex-col gap-y-6 justify-center w-full">
+          <button
+            class="flex m-auto font-bold border-2 w-full justify-center rounded-full py-4 gap-x-4 hover:bg-slate-200"
+          >
+            <span>
+              <img
+                class="max-w-7"
+                width="100"
+                height="100"
+                src="./IMG/logo_google_g_icon.svg"
+                alt=""
+              />
+            </span>
+            Signup with Google
+          </button>
+
+          <button
+            class="flex m-auto font-bold border-2 w-full justify-center rounded-full py-4 gap-x-4 hover:bg-slate-200"
+          >
+            <span>
+              <img
+                class="max-w-7"
+                width="100"
+                height="100"
+                src="./IMG/facebook logo_icon.svg"
+                alt=""
+              />
+            </span>
+
+            Signup with Facebook
+          </button>
+          <div class="flex justify-center py-5">
+            <span> Already have an account? </span>
+            <div>
+              <a class="font-semibold text-base hover:text-orange-500" href="#">
+                Log in here</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Kết thúc Code của Toàn -->
+
+    <!-- Footer text slider -->
+    <footer class="bg-[#efeae3] mt-20 ">
+      <div id="animated-text-strip" class="text-center py-14">
+        <div class="marquee">
+          <span>Start building software&nbsp;</span>
+          <span>Start building software&nbsp;</span>
+          <span>Start building software&nbsp;</span>
+        </div>
+      </div>
+      <!-- footer center -->
+      <div
+        class="max-w-7xl grid grid-cols-[1fr_auto_auto_1fr] gap-20 m-auto pt-20 pb-20 border-t-2 border-b-2 border-solid border-neutral-300"
+      >
+        <div class="flex flex-col gap-y-6">
+          <a href="#">
+            <img src="./IMG/logo-dark.png" alt="" />
+          </a>
+          <p>
+            Our mission is to harness the power of AI to solve complex business
+            challenges & decision-makers with data-driven insights, and enhance
+            user experiences across digital platforms.
+          </p>
+          <p>Website: www.example.com</p>
+        </div>
+        <div class="flex flex-col gap-y-6">
+          <h4 class="font-bold">Primary Pages</h4>
+          <ul class="flex flex-col gap-y-2">
+            <li>
+              <a
+                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                href="#"
+                >Home</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                href="#"
+                >About Us</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                href="#"
+                >Services</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                href="#"
+                >Pricing</a
+              >
+            </li>
+            <li>
+              <a
+                class="transition-all duration-300 ease-linear hover:text-colorOrangyRed"
+                href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-y-6">
+          <h4 class="font-bold">Utility pages</h4>
+          <ul class="flex flex-col gap-y-2">
+            <li>
+              <a href="#">Signup</a>
+            </li>
+            <li>
+              <a href="#">Login</a>
+            </li>
+            <li>
+              <a href="#">404 Not found</a>
+            </li>
+            <li>
+              <a href="#">Password Reset</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="flex flex-col gap-y-6">
+          <h4 class="font-bold">Subscribe to our newsletter</h4>
+
+          <div
+            class="bg-white border-2 border-black max-w-72 rounded-full flex"
+          >
+            <input
+              style="
+                border: unset;
+                background-color: unset;
+                box-shadow: unset;
+                outline: unset;
+              "
+              type="email"
+              placeholder="Enter your email"
+            />
+            <button
+              class="border-2 bg-black px-8 pl-6 pt-2 rounded-full pb-2 items-center hover:bg-orange-500"
+            >
+              <i class="fa-solid fa-arrow-right text-white"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- footer center -->
+
+      <div class="text-center py-9">
+        <p>© Copyright 2023, All Rights Reserved by Mthemeus</p>
+      </div>
+    </footer>
+    <!-- Toan end -->
+
+    <script
+      type="text/javascript"
+      src="./slick-1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./../node_modules/flowbite/dist/flowbite.min.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="../node_modules/flowbite/dist/flowbite.min.js"></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+
+    <script>
+      $(".companies-slick").slick({
+        slidesToShow: 5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+        arrows: false,
+      });
+    </script>
+  </body>
+</html>
