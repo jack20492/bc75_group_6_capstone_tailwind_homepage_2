@@ -1143,9 +1143,9 @@ input:checked + .toggle-bg {
   margin: auto;
 }
 
-.mx-16 {
-  margin-left: 4rem;
-  margin-right: 4rem;
+.mx-8 {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .mx-auto {
@@ -1156,11 +1156,6 @@ input:checked + .toggle-bg {
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.mx-8 {
-  margin-left: 2rem;
-  margin-right: 2rem;
 }
 
 .-mb-px {
@@ -1211,6 +1206,10 @@ input:checked + .toggle-bg {
   margin-inline-start: 0.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
 .mt-16 {
   margin-top: 4rem;
 }
@@ -1237,10 +1236,6 @@ input:checked + .toggle-bg {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
 }
 
 .block {
@@ -1520,6 +1515,10 @@ input:checked + .toggle-bg {
   overflow: hidden;
 }
 
+.whitespace-nowrap {
+  white-space: nowrap;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -1743,10 +1742,6 @@ input:checked + .toggle-bg {
   padding: 1.25rem;
 }
 
-.p-8 {
-  padding: 2rem;
-}
-
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
@@ -1802,14 +1797,14 @@ input:checked + .toggle-bg {
   padding-bottom: 1.25rem;
 }
 
-.py-9 {
-  padding-top: 2.25rem;
-  padding-bottom: 2.25rem;
-}
-
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+
+.py-9 {
+  padding-top: 2.25rem;
+  padding-bottom: 2.25rem;
 }
 
 .pb-10 {
@@ -1860,14 +1855,6 @@ input:checked + .toggle-bg {
   padding-top: 2.25rem;
 }
 
-.pb-8 {
-  padding-bottom: 2rem;
-}
-
-.pb-16 {
-  padding-bottom: 4rem;
-}
-
 .text-left {
   text-align: left;
 }
@@ -1881,9 +1868,9 @@ input:checked + .toggle-bg {
   line-height: 2rem;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-6xl {
@@ -1919,11 +1906,6 @@ input:checked + .toggle-bg {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-5xl {
@@ -2257,7 +2239,7 @@ tr:hover .img-1 {
   max-width: 700px;
 }
 
-.ap__container h1, .cost__container h1, .card-content h1{
+.ap__container h1, .card-content h1{
   font-size: 4.5rem;
   font-weight: bold;
 }
