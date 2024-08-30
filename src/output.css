@@ -2040,6 +2040,12 @@ input:checked + .toggle-bg {
   font-family: "Roboto", sans-serif;
 }
 
+/* @media (min-width: 768px) {
+    body {
+      font-size: 18px;
+    }
+  } */
+
 body {
   font-size: 1.125rem;
 }
