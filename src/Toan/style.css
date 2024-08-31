@@ -99,7 +99,7 @@
 @media screen and (max-width: 549px) {
   .class-external-toan .tieu-de-chinh {
     font-size: 20px;
-    color: yellow;
+   
   }
 
   .signup-resp .tieu-de-phu {
@@ -112,6 +112,9 @@
     grid-template-columns: 1fr;
   }
   .bo-cuc-4 {
+    grid-template-columns: 1fr;
+  }
+  .bo-cuc-5 {
     grid-template-columns: 1fr;
   }
 }
