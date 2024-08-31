@@ -23,7 +23,6 @@
 /* Styles for the sake of the demonstration */
 #animated-text-strip {
   background: white;
- 
 }
 .marquee {
   font-family: "Open Sans", sans-serif;
@@ -31,4 +30,87 @@
   font-weight: 900;
   text-transform: uppercase;
   color: black;
+}
+
+.class-external-toan {
+  border: 10px solid;
+}
+
+/* >849px */
+.class-external-toan .tieu-de-chinh {
+  font-size: 48px;
+}
+.signup-resp .tieu-de-phu {
+  font-size: 8rem;
+}
+
+.Freely-ask-us .tieu-de-ask-us {
+  font-size: 4.5rem;
+}
+.bo-cuc-3 {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(3, 1fr);
+  padding-bottom: 80px;
+}
+
+.bo-cuc-4 {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+/* .bo-cuc-5 {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(4, 1fr);
+} */
+
+@media screen and (max-width: 849px) {
+  .class-external-toan .tieu-de-chinh {
+    font-size: 30px;
+  }
+
+  .signup-resp .tieu-de-phu {
+    font-size: 5rem;
+  }
+
+  .Freely-ask-us .tieu-de-ask-us {
+    font-size: 2.5rem;
+  }
+  .class-external-toan .mt-16 {
+    margin-top: 0;
+  }
+  .class-external-toan .pt-10 {
+    padding-top: 0;
+  }
+  .bo-cuc-3 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bo-cuc-4 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .bo-cuc-5 {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (max-width: 549px) {
+  .class-external-toan .tieu-de-chinh {
+    font-size: 20px;
+    color: yellow;
+  }
+
+  .signup-resp .tieu-de-phu {
+    font-size: 2rem;
+  }
+  .Freely-ask-us .tieu-de-ask-us {
+    font-size: 1.5rem;
+  }
+  .bo-cuc-3 {
+    grid-template-columns: 1fr;
+  }
+  .bo-cuc-4 {
+    grid-template-columns: 1fr;
+  }
 }

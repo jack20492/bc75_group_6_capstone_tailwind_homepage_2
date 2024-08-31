@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Azzle - AI Technology and Startup</title>
     <!-- link css.Toan -->
-     <link rel="stylesheet" href="./Toan/style.css">
+    <link rel="stylesheet" href="./Toan/style.css" />
 
     <!-- GG Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -42,7 +42,7 @@
   <body>
     <!--     Phúc start -->
     <!--...::: Header Start :::... -->
-    <div class="page-wrapper pb-10" style="background: unset !important;">
+    <div class="page-wrapper pb-10" style="background: unset !important">
       <header
         class="site-header site-header--absolute is--white py-3"
         id="sticky-menu"
@@ -50,7 +50,7 @@
         <div class="master-container">
           <div class="flex items-center justify-between gap-x-8 pb-20">
             <!-- Header Logo -->
-            <a class href="https://bc75-group-6-capstone-tailwind-homepage-2.vercel.app/">
+            <a class href="/src/index.html">
               <img
                 src="./IMG/logo-dark.png"
                 alt="Logo"
@@ -246,7 +246,7 @@
             <!-- Header User Event -->
             <div class="flex items-center gap-6">
               <a
-                
+                style="font-size: 2vw"
                 type="button"
                 class="py-2.5 px-5 me-2 mb-2 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-full border border-gray-200 hover:bg-red-500 hover:text-white focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700 lg:inline-block"
               >
@@ -254,7 +254,7 @@
               </a>
               <a
                 href="/signup.html"
-               
+                style="font-size: 2vw"
                 type="button"
                 class="text-white bg-gray-800 hover:bg-red-500 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-full text-sm px-5 py-2.5 me-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
               >
@@ -289,139 +289,150 @@
 
     <!-- Bắt đầu Code của Toàn -->
 
-    <h1 class="max-w-7xl text-center m-auto pb-5 pt-5 text-9xl font-bold">
-      Create Account
-    </h1>
+    <section class="signup-resp">
+      <h1
+        class="tieu-de-phu max-w-7xl text-center m-auto pb-5 pt-5 text-9xl font-bold"
+      >
+        Create Account
+      </h1>
 
-    <div class="max-w-3xl m-auto bg-[#ffffff]">
-      <div class="mb-5">
-        <label for="signup-name" class="font-bold">Enter your name</label>
-
-        <input
-          type="text"
-          id="signup-name"
-          autocomplete="signup-name"
-          class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-600 focus:border-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 dark:shadow-sm-light"
-          placeholder="Adam Smith"
-          required
-        />
-      </div>
-      <form class="max-w-3xl mx-auto">
+      <div class="bo-cuc-5 max-w-3xl m-auto bg-[#ffffff]">
         <div class="mb-5">
-          <label
-            for="email"
-            class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
-            >Email address</label
-          >
+          <label for="signup-name" class="font-bold">Enter your name</label>
+
           <input
-            type="email"
-            id="email"
-            autocomplete="email"
+            type="text"
+            id="signup-name"
+            autocomplete="signup-name"
             class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-600 focus:border-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 dark:shadow-sm-light"
-            placeholder="example@gmail.com"
+            placeholder="Adam Smith"
             required
           />
         </div>
-        <div class="mb-5">
-          <label
-            for="password"
-            class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
-            >Enter Password</label
-          >
-          <input
-            type="password"
-            id="password"
-            autocomplete="current-password"
-            class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-600 focus:border-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 dark:shadow-sm-light"
-            required
-          />
-        </div>
-
-        <div class="flex items-start mb-5">
-          <div class="flex items-center h-5">
+        <form class="max-w-3xl mx-auto">
+          <div class="mb-5">
+            <label
+              for="email"
+              class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+              >Email address</label
+            >
             <input
-              id="terms"
-              type="checkbox"
-              value=""
-              class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+              type="email"
+              id="email"
+              autocomplete="email"
+              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-600 focus:border-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 dark:shadow-sm-light"
+              placeholder="example@gmail.com"
               required
             />
           </div>
-          <label
-            for="terms"
-            class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
-            >I have read and accept the
-            <a href="#" class="text-black hover:text-red-600 dark:text-blue-500"
-              >Terms & Conditions</a
+          <div class="mb-5">
+            <label
+              for="password"
+              class="block mb-2 text-sm font-bold text-gray-900 dark:text-white"
+              >Enter Password</label
             >
-            and
-            <a href="#" class="text-black hover:text-red-600 dark:text-blue-500"
-              >Privacy Policy</a
+            <input
+              type="password"
+              id="password"
+              autocomplete="current-password"
+              class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-red-600 focus:border-red-600 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-red-600 dark:focus:border-red-600 dark:shadow-sm-light"
+              required
+            />
+          </div>
+
+          <div class="flex items-start mb-5">
+            <div class="flex items-center h-5">
+              <input
+                id="terms"
+                type="checkbox"
+                value=""
+                class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300"
+                required
+              />
+            </div>
+            <label
+              for="terms"
+              class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+              >I have read and accept the
+              <a
+                href="#"
+                class="text-black hover:text-red-600 dark:text-blue-500"
+                >Terms & Conditions</a
+              >
+              and
+              <a
+                href="#"
+                class="text-black hover:text-red-600 dark:text-blue-500"
+                >Privacy Policy</a
+              >
+            </label>
+          </div>
+          <div>
+            <button
+              type="submit"
+              class="text-white bg-black hover:bg-red-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-4 text-center w-full"
             >
-          </label>
+              Create account
+            </button>
+          </div>
+        </form>
+
+        <div class="z-10 text-center font-bold pt-9 pb-9">
+          <span>Or</span>
         </div>
         <div>
-          <button
-            type="submit"
-            class="text-white bg-black hover:bg-red-600 focus:ring-4 focus:ring-blue-300 font-medium rounded-full text-sm px-5 py-4 text-center w-full"
-          >
-            Create account
-          </button>
-        </div>
-      </form>
+          <div class="flex flex-col gap-y-6 justify-center w-full">
+            <button
+              class="flex m-auto font-bold border-2 w-full justify-center rounded-full py-4 gap-x-4 hover:bg-slate-200"
+            >
+              <span>
+                <img
+                  class="max-w-7"
+                  width="100"
+                  height="100"
+                  src="./IMG/logo_google_g_icon.svg"
+                  alt=""
+                />
+              </span>
+              Signup with Google
+            </button>
 
-      <div class="z-10 text-center font-bold pt-9 pb-9">
-        <span>Or</span>
-      </div>
-      <div>
-        <div class="flex flex-col gap-y-6 justify-center w-full">
-          <button
-            class="flex m-auto font-bold border-2 w-full justify-center rounded-full py-4 gap-x-4 hover:bg-slate-200"
-          >
-            <span>
-              <img
-                class="max-w-7"
-                width="100"
-                height="100"
-                src="./IMG/logo_google_g_icon.svg"
-                alt=""
-              />
-            </span>
-            Signup with Google
-          </button>
+            <button
+              class="flex m-auto font-bold border-2 w-full justify-center rounded-full py-4 gap-x-4 hover:bg-slate-200"
+            >
+              <span>
+                <img
+                  class="max-w-7"
+                  width="100"
+                  height="100"
+                  src="./IMG/facebook logo_icon.svg"
+                  alt=""
+                />
+              </span>
 
-          <button
-            class="flex m-auto font-bold border-2 w-full justify-center rounded-full py-4 gap-x-4 hover:bg-slate-200"
-          >
-            <span>
-              <img
-                class="max-w-7"
-                width="100"
-                height="100"
-                src="./IMG/facebook logo_icon.svg"
-                alt=""
-              />
-            </span>
-
-            Signup with Facebook
-          </button>
-          <div class="flex justify-center py-5">
-            <span> Already have an account? </span>
-            <div>
-              <a class="font-semibold text-base hover:text-orange-500" href="#">
-                Log in here</a
-              >
+              Signup with Facebook
+            </button>
+            <div class="flex justify-center py-5">
+              <span> Already have an account? </span>
+              <div>
+                <a
+                  class="font-semibold text-base hover:text-orange-500"
+                  href="#"
+                >
+                  Log in here</a
+                >
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- Kết thúc Code của Toàn -->
 
     <!-- Footer text slider -->
-    <footer class="bg-[#efeae3] mt-20 ">
-      <div id="animated-text-strip" class="text-center py-14">
+    <footer class="bg-[#efeae3]">
+      <div class="py-14" id="animated-text-strip" class="text-center">
         <div class="marquee">
           <span>Start building software&nbsp;</span>
           <span>Start building software&nbsp;</span>
@@ -430,7 +441,7 @@
       </div>
       <!-- footer center -->
       <div
-        class="max-w-7xl grid grid-cols-[1fr_auto_auto_1fr] gap-20 m-auto pt-20 pb-20 border-t-2 border-b-2 border-solid border-neutral-300"
+        class="max-w-7xl bo-cuc-4 gap-20 m-auto pt-20 pb-20 border-t-2 border-b-2 border-solid border-neutral-300"
       >
         <div class="flex flex-col gap-y-6">
           <a href="#">
